@@ -2,7 +2,7 @@
 
 This is a database management project that uses MySQL, XAMPP Server, PHP, HTML, CSS and JavaScript.
 
- Navigation begins from home.php. file. All images used are stored in images folder. 
+ Navigation begins from login.php file. All images used are stored in images folder. 
  
  # User View
 
