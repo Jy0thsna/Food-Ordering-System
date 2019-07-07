@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Food Lover: Login</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="main_logo.jpg" />
+</head>
+
+<body class="index_style">
+	
+	<div class="login-page">
+	<div class="form">
+		<form class="register-form" method="POST" action="register.php">
+			<input type="text" name="name" placeholder="Name"/>
+			<input type="text" name="username" placeholder="Username"/>
+			<input type="password" name="password" placeholder="Password"/>
+			<input type="password" name="confirm_password" placeholder="Confirm Password"/>
+			<input type="email" name="email" placeholder="Email"/>
+			<input type="text" name="address_1" placeholder="Address 1"/>
+			<input type="text" name="address_2" placeholder="Address 2"/>
+			<input type="text" name="address_3" placeholder="Address 3"/>
+			<button type="submit" >REGISTER</button>
+			<p class="message">Already Registered? <a href="#"> Login</a></p>
+		</form>
+		
+		<form class="login-form" method="POST" action="login.php">
+			<input type="text" name="username" placeholder="Username">
+			<input type="password" name="password" placeholder="Password">
+			<button type="submit" name="submit">LOGIN</button>
+			
+			<p class="message">Not Registered? <a href="#">Register</a></p>
+		</form>
+		</div>
+		</div>
+		
+		<script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+		</script>
+		
+		<script>
+			$('.message a').click(function() {
+			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+			});
+		</script>
+</body>
+</html>

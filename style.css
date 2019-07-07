@@ -1,0 +1,182 @@
+.index_style {
+	background-image: url(bac.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.home_style {
+	background-image: url(back.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.login-page {
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #333;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}	
+
+click {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 200px;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form input {
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form button: hover, .form button:active {
+	background: #43A047;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.form .message a {
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.list_items {
+    float: right;
+}
+
+.company {
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+.list_items a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.home_head {
+	font-size: 40px;
+	font-family: 'Niramit', sans-serif;
+	text-align: right;
+}
+
+.home_para {
+	font-size: 24px;
+	font-family: 'Niramit', sans-serif;
+	text-align: right;	
+}
+
+.description {
+	width: 500px;
+	padding-top: 50px;
+	float: right;
+	padding-right: 100px;
+}
+
+.edit_items {
+	font-family: Niramit;
+	outline: 1;
+	background: #f2f2f2;
+	width: 300px;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
